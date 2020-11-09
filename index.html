@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"> -->
+    <style>
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        /* background-color: red; */
+        /* border-radius: 40px; */
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+      }
+      .swiper-slide::before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 50%;
+        right: 15%;
+        z-index: 99;
+        top: 23%;
+        background-color: rgba(0, 0, 0, 0.13);
+      }
+      .swiper-slide::after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 50%;
+        left: 12.5%;
+        z-index: 99;
+        bottom: 32%;
+        background-color: rgba(0, 0, 0, 0.13);
+      }
+      .swiper-slide .header_title {
+        position: absolute;
+        width: 100%;
+        height: 15%;
+        /* background-color: red; */
+        place-items: center;
+        display: grid;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center_space">
+      <h1><i class="fa fa-smile-o" aria-hidden="true"></i></h1>
+      <div class="box">
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="header_title">
+                <h3><i class="fa fa-cutlery" aria-hidden="true"></i> crammy</h3>
+              </div>
+              <div class="body_title">
+                <p class="pera1">
+                  <i class="fa fa-inr" aria-hidden="true"></i> 115
+                </p>
+                <p class="pera2">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+                <img src="images/ice4.jpg" alt="" />
+              </div>
+              <div class="ftr">
+                <button>order now <i class = "fa fa-arrow-right"> </i></button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="header_title">
+                  <h3><i class="fa fa-cutlery" aria-hidden="true"></i> t_shine</h3>
+                </div>
+                <div class="body_title">
+                  <p class="pera1">
+                    <i class="fa fa-inr" aria-hidden="true"></i> 165
+                  </p>
+                  <p class="pera2">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </p>
+                  <img src="images/ice1.jpg" alt="" />
+                </div>
+                <div class="ftr">
+                  <button>order now <i class = "fa fa-arrow-right"> </i></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="header_title">
+                  <h3><i class="fa fa-cutlery" aria-hidden="true"></i> choko</h3>
+                </div>
+                <div class="body_title">
+                  <p class="pera1">
+                    <i class="fa fa-inr" aria-hidden="true"></i> 210
+                  </p>
+                  <p class="pera2">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </p>
+                  <img src="images/ice2.jpg" alt="" />
+                </div>
+                <div class="ftr">
+                  <button>order now <i class = "fa fa-arrow-right"> </i></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="header_title">
+                  <h3><i class="fa fa-cutlery" aria-hidden="true"></i> respebo ice</h3>
+                </div>
+                <div class="body_title">
+                  <p class="pera1">
+                    <i class="fa fa-inr" aria-hidden="true"></i> 415
+                  </p>
+                  <p class="pera2">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </p>
+                  <img src="images/ice6.png" alt="" />
+                </div>
+                <div class="ftr">
+                  <button>order now <i class = "fa fa-arrow-right"> </i></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="header_title">
+                  <h3><i class="fa fa-cutlery" aria-hidden="true"></i> pink bloom</h3>
+                </div>
+                <div class="body_title">
+                  <p class="pera1">
+                    <i class="fa fa-inr" aria-hidden="true"></i> 425
+                  </p>
+                  <p class="pera2">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </p>
+                  <img src="images/ice7.png" alt="" />
+                </div>
+                <div class="ftr">
+                  <button>order now <i class = "fa fa-arrow-right"> </i></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="header_title">
+                  <h3><i class="fa fa-cutlery" aria-hidden="true"></i> butter</h3>
+                </div>
+                <div class="body_title">
+                  <p class="pera1">
+                    <i class="fa fa-inr" aria-hidden="true"></i> 500
+                  </p>
+                  <p class="pera2">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </p>
+                  <img src="images/ice8.jpg" alt="" />
+                </div>
+                <div class="ftr">
+                  <button>order now <i class = "fa fa-arrow-right"> </i></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="header_title">
+                  <h3><i class="fa fa-cutlery" aria-hidden="true"></i> reso butter</h3>
+                </div>
+                <div class="body_title">
+                  <p class="pera1">
+                    <i class="fa fa-inr" aria-hidden="true"></i> 515
+                  </p>
+                  <p class="pera2">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </p>
+                  <img src="images/ice9.jpg" alt="" />
+                </div>
+                <div class="ftr">
+                  <button>order now <i class = "fa fa-arrow-right"> </i></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="header_title">
+                  <h3><i class="fa fa-cutlery" aria-hidden="true"></i> vanila cream</h3>
+                </div>
+                <div class="body_title">
+                  <p class="pera1">
+                    <i class="fa fa-inr" aria-hidden="true"></i> 515
+                  </p>
+                  <p class="pera2">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </p>
+                  <img src="images/ice12.png" alt="" />
+                </div>
+                <div class="ftr">
+                  <button>order now <i class = "fa fa-arrow-right"> </i></button>
+                </div>
+              </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <footer>
+        <p>excellent code with aj</p>
+      </footer>
+    </div>
+    <script src="swiper.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 70,
+          stretch: 0,
+          depth: 20,
+          modifier: 2,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
